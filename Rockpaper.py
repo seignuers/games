@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors! v.1.4 (by GrobranGG) (https://github.com/GrobranGG)
+
 import time
 import os
 import colorama
@@ -16,7 +16,7 @@ def convert():
     elif sys.platform == "linux":
         clean_command = "clear"
     os.system(clean_command)
-       print("""ROCK PAPERS SCISSORS BY @z1gz4ggg""")                                               
+       print("ROCK PAPERS SCISSORS BY @z1gz4ggg")                                               
 
     print(Fore.WHITE + "Choose a language (number):")
     print("1. English")
